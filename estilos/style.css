@@ -60,27 +60,30 @@ body {
     padding: 5px;
 }
 
-#formulario form {
-    text-align: center;
+#formulario {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+form {
+    width: 310px;
 }
 
 form input {
+    width: 60%;
     padding: 10px 40px 10px 10px;
     border-radius: 10px;
-    margin: 5px;
+    margin: auto;
     background-color: var(--cor02);
     /* -20px 0px 0px 0px black; */
 }
 
-.info {
-    width: 260px;
-    display: inline-block;
+div.info {
     background-color: #602c82;
-    text-align: center;
     margin: 5px;
     padding: 12px -1px 0px 10px;
     border-radius: 10px;
-
 }
 
 form input::placeholder {
