@@ -67,21 +67,26 @@ body {
 }
 
 form {
-    width: 310px;
+    width: 100%;
 }
 
 form input {
     width: 60%;
     padding: 10px 40px 10px 10px;
     border-radius: 10px;
-    margin: auto;
     background-color: var(--cor02);
     /* -20px 0px 0px 0px black; */
 }
 
+form input:active {
+    background-color: white;
+}
+
 div.info {
+    width: 250px;
     background-color: #602c82;
-    margin: 5px;
+    margin: auto;
+    margin-bottom: 10px;
     padding: 12px -1px 0px 10px;
     border-radius: 10px;
 }
