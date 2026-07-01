@@ -5,3 +5,91 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+:root {
+    --cor01: #49a09d;
+    --cor02: #94CFCD;
+    --cor03: #5f2c82;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor03);
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+    width: 250px;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+}
+
+#imagem img{
+    width: 100%;
+    height: 180px;
+}
+
+#formulario h1 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.9em;
+    padding: 10px;
+    text-align: center;
+}
+
+#formulario p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+#formulario form {
+    text-align: center;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: var(--cor02);
+    /* -20px 0px 0px 0px black; */
+}
+
+.info {
+    display: inline;
+    background-color: #602c82;
+    text-align: center;
+    margin: 5px;
+    padding: 12px 0px 12px 10px;
+    border-radius: 10px;
+
+}
+
+form input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+
+form label#email::after {
+    content: '👤';
+}
+
+form label#senha::after {
+   content: '🔑';
+}
+
+
