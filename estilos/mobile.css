@@ -6,7 +6,7 @@
     Lilás: #5f2c82
 */
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
     :root {
         --cor01: #49a09d;
         --cor02: #94CFCD;
