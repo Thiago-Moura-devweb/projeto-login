@@ -3,29 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/desktop.css">
     <title>Login</title>
 </head>
 <body>
     <main>
         <section id="login">
-            <div id="imagem">
-                <img src="imagens/pattern-roxa.jpg" alt="">
-            </div>
-            <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
-                    <div class="info">
-                        <label for="iemail" id="email"></label>
-                        <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu e-mail">
-                    </div>
-                    <div class="info">
-                        <label for="isen" id="senha"></label>
-                        <input type="password" name="sen" id="isen" autocomplete="current-password" placeholder="sua senha">
-                    </div>
-                    <!-- <input type="submit" value="Entrar"> -->
-                </form>
+            <div id="global">
+                <div id="imagem">
+                    <img src="imagens/pattern-roxa.jpg" alt="">
+                </div>
+                <div id="formulario">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                    <form action="login.php" method="post">
+                        <div class="info">
+                            <label for="iemail" id="email"></label>
+                            <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu e-mail">
+                        </div>
+                        <div class="info">
+                            <label for="isen" id="senha"></label>
+                            <input type="password" name="sen" id="isen" autocomplete="current-password" placeholder="sua senha">
+                        </div>
+                        <!-- <input type="submit" value="Entrar"> -->
+                    </form>
+                </div>
             </div>
         </section>
     </main>
