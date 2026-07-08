@@ -133,5 +133,6 @@
 
     #esqueci-senha input:hover {
         background-color: var(--cor00);
+        cursor: pointer;
     }
 }
