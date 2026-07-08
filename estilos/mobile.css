@@ -8,6 +8,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
     :root {
+        --cor00: #6CD3CF;
         --cor01: #49a09d;
         --cor02: #94CFCD;
         --cor03: #5f2c82;
@@ -32,7 +33,7 @@
 
         border-radius: 10px;
         width: 250px; /* 320px */
-        height: 500px;
+        height: 530px;
         margin: auto;
         background-color: white;
     }
@@ -104,6 +105,33 @@
     }
 
     form label#senha::after {
-    content: '🔑';
+        content: '🔑';
+    }
+
+    #entrar input {
+        width: 100%;
+        padding: 11px 0px;
+        font-size: 1em;
+        background-color: var(--cor01);
+        color: white;
+        border: 0;
+    }
+
+    #entrar input:hover {
+        background-color: #306463;
+        cursor: pointer;
+    }
+
+    #esqueci-senha input{
+        width: 100%;
+        background-color: white;
+        color: #306463;
+        padding: 11px 0px;
+        font-size: 0.9em;
+        border: 1px solid var(--cor00);
+    }
+
+    #esqueci-senha input:hover {
+        background-color: var(--cor00);
     }
 }

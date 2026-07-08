@@ -15,10 +15,8 @@
     body {
         width: 100vw;
         height: 100vh;
-        background-color: var(--cor03);
-    }
-    
-    
+        background: linear-gradient(to bottom, var(--cor03), var(--cor01));
+    }    
 
     #login {
         position: absolute;
