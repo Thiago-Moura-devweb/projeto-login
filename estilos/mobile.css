@@ -25,6 +25,10 @@
         background-color: var(--cor03);
     }
 
+    main {
+        height: 100vh;
+    }
+
     #login {
         position: absolute;
         top: 50%;
@@ -33,7 +37,7 @@
 
         border-radius: 10px;
         width: 250px; /* 320px */
-        height: 530px;
+        height: 570px;
         margin: auto;
         background-color: white;
     }
