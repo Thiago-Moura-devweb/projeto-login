@@ -132,7 +132,7 @@
         color: #306463;
         padding: 11px 0px;
         font-size: 0.9em;
-        border: 1px solid var(--cor00);
+        border: 1px solid var(--cor01);
     }
 
     #esqueci-senha input:hover {
